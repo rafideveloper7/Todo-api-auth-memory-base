@@ -42,4 +42,11 @@ const createTodoHandler = async (req, res) => {
     }
 };
 
-module.exports = { getTodosHandler, createTodoHandler };
+const deleteTodo = async (req, res) => {
+    res.send("delete route");
+};
+const updateTodo = async (req, res) => {
+    res.send('update route')
+};
+
+module.exports = { getTodosHandler, createTodoHandler, deleteTodo, updateTodo };
