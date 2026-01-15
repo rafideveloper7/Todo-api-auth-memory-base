@@ -1,0 +1,20 @@
+{
+  "name": "todo-without-db",
+  "version": "1.0.0",
+  "description": "complete todo api with system storage , no database",
+  "main": "server.js",
+  "author": "rafideveloper7 - Rafi Ullah",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon ./server.js",
+    "start:prod": "node ./server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
