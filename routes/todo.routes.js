@@ -9,7 +9,7 @@ router.get('/', authenticateToken, getTodosHandler);
 // post route user create new todos
 router.post('/', authenticateToken, createTodoHandler);
 // delete route user delete todos
-router.delete('/', authenticateToken, deleteTodo);
+router.delete('/:id', authenticateToken, deleteTodo);
 //update todo route
 router.put('/', authenticateToken, updateTodo)
 
